@@ -1,9 +1,8 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 
 body {
-  background-image:url(../images/dbz.jpg);
-  background-position: center;
-  background-size: cover;
+  background-image:url(../images/dbz.gif);
+  background-position: left;
 }
 
 .container {
@@ -70,15 +69,29 @@ a {
 .text-center {
   text-align: center;
 }
-.fab {
-  color: #232323;
-}
-ul a {
-  color: #232323;
+
+ul {
+  padding-left: 0;
 }
 
 ul a:hover {
   color: #A71D31;
+}
+
+.fab {
+  color: #232323;
+  font-size: 30px;
+  padding-left: 0;
+}
+
+.list-inline {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 50px;
+  margin-top: 5px;
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #232323;
 }
 
 @media (max-width: 960px) {
